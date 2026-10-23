@@ -1,0 +1,74 @@
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: Código: Nombre: Categoría (Accesorios, Componentes, Oficina, Periféricos): Precio: Cantidad: Producto registrado correctamente.
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: P010 | Mouse | Periféricos | $40000.00 | Cantidad: 3
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: Código: {'codigo': 'P010', 'nombre': 'Mouse', 'categoria': 'Periféricos', 'precio': 40000.0, 'cantidad': 3}
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: Productos registrados: 1
+Unidades totales: 3
+Categorías: Periféricos
+Valor del inventario: $120000.00
+Agotados: Ninguno
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: Código: Producto eliminado correctamente.
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: No hay productos registrados.
+
+--- GESTOR DE INVENTARIO ---
+1. Registrar producto
+2. Consultar productos
+3. Buscar producto
+4. Actualizar producto
+5. Eliminar producto
+6. Ver informe
+0. Salir
+Seleccione una opción: Programa finalizado.
