@@ -6,7 +6,7 @@ Repositorio personal de **Karen Sirley Bonilla Ramirez** (ficha **3388087**) par
 
 
 
-## Estructura
+## Evolución del proyecto
 
 
 
@@ -16,17 +16,19 @@ laboratorios/
 
 ├── README.md
 
-├── laboratorio-01/  # Variables, tipos, operadores, entradas y cotizador
+├── laboratorio-01/  # Fundamentos y cotizador
 
 ├── laboratorio-02/  # Control, colecciones y gestor procedural
 
-└── laboratorio-03/  # Funciones, módulos y programación orientada a objetos
+├── laboratorio-03/  # Funciones, módulos y gestor POO
+
+└── laboratorio-04/  # Persistencia JSON, reportes CSV y excepciones
 
 ```
 
 
 
-Los laboratorios anteriores se conservaron sin reemplazarlos. Cada actividad nueva está organizada en su propia carpeta.
+Los laboratorios anteriores se conservaron sin reemplazarlos. Cada etapa muestra la evolución del mismo gestor: primero fundamentos, después colecciones, luego clases y finalmente persistencia en archivos.
 
 
 
@@ -34,7 +36,7 @@ Los laboratorios anteriores se conservaron sin reemplazarlos. Cada actividad nue
 
 
 
-Ejercicios de variables, tipos de datos, operadores y entrada de información, además del cotizador.
+Variables, tipos, operadores, entrada de información y cotizador.
 
 
 
@@ -42,9 +44,7 @@ Ejercicios de variables, tipos de datos, operadores y entrada de información, a
 
 python3 laboratorio-01/cotizador_compra.py
 
-cd laboratorio-01
-
-python3 -m unittest discover -s pruebas -v
+cd laboratorio-01 && python3 -m unittest discover -s pruebas -v
 
 ```
 
@@ -54,7 +54,7 @@ python3 -m unittest discover -s pruebas -v
 
 
 
-Ejercicios de estructuras de control y colecciones, junto con el gestor procedural.
+Estructuras de control, colecciones y gestor procedural.
 
 
 
@@ -62,9 +62,7 @@ Ejercicios de estructuras de control y colecciones, junto con el gestor procedur
 
 python3 laboratorio-02/gestor_inventario.py
 
-cd laboratorio-02
-
-python3 -m unittest discover -s pruebas -v
+cd laboratorio-02 && python3 -m unittest discover -s pruebas -v
 
 ```
 
@@ -74,7 +72,7 @@ python3 -m unittest discover -s pruebas -v
 
 
 
-Ejercicios de funciones, módulos y POO. El gestor se reorganizó en los módulos `producto.py`, `inventario.py` y `main.py`, separando la interacción de las operaciones de las clases.
+Funciones, módulos y transformación del gestor a POO con `Producto`, `Inventario` y `main.py`.
 
 
 
@@ -90,7 +88,27 @@ python3 -m unittest discover -s . -p 'test*.py' -v
 
 
 
-El gestor orientado a objetos valida códigos, nombres, categorías, precios y cantidades. También demuestra que dos objetos `Inventario` mantienen colecciones independientes.
+## Laboratorio 04
+
+
+
+Gestor persistente con JSON, reporte CSV y manejo de excepciones. La aplicación valida los datos antes de guardarlos, recupera el inventario al iniciar, evita sobrescribir un JSON dañado y mantiene separadas las responsabilidades de negocio, almacenamiento, reportes e interacción.
+
+
+
+```bash
+
+cd laboratorio-04/gestor_inventario
+
+python3 main.py
+
+python3 -m unittest discover -s . -p 'test*.py' -v
+
+```
+
+
+
+Los datos se generan dentro de `laboratorio-04/gestor_inventario/datos` y los reportes dentro de `laboratorio-04/gestor_inventario/reportes`.
 
 
 
