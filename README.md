@@ -2,7 +2,7 @@
 
 
 
-Repositorio personal de **Karen Sirley Bonilla Ramirez** (ficha **3388087**) para organizar las actividades de los laboratorios de Python.
+Repositorio personal de **Karen Sirley Bonilla Ramirez** (ficha **3388087**) para organizar las actividades de Python.
 
 
 
@@ -16,27 +16,17 @@ laboratorios/
 
 ├── README.md
 
-├── laboratorio-01/
+├── laboratorio-01/  # Variables, tipos, operadores, entradas y cotizador
 
-│   ├── ejercicios de fundamentos
+├── laboratorio-02/  # Control, colecciones y gestor procedural
 
-│   ├── cotizador_compra.py
-
-│   └── pruebas/
-
-└── laboratorio-02/
-
-    ├── ejercicios de control y colecciones
-
-    ├── gestor_inventario.py
-
-    └── pruebas/
+└── laboratorio-03/  # Funciones, módulos y programación orientada a objetos
 
 ```
 
 
 
-Los archivos del Laboratorio 01 se conservaron sin reemplazarlos. El Laboratorio 02 se agregó en una carpeta independiente.
+Los laboratorios anteriores se conservaron sin reemplazarlos. Cada actividad nueva está organizada en su propia carpeta.
 
 
 
@@ -44,7 +34,7 @@ Los archivos del Laboratorio 01 se conservaron sin reemplazarlos. El Laboratorio
 
 
 
-Incluye ejercicios sobre variables, tipos de datos, operadores y entrada de información, además del cotizador de compras.
+Ejercicios de variables, tipos de datos, operadores y entrada de información, además del cotizador.
 
 
 
@@ -64,7 +54,7 @@ python3 -m unittest discover -s pruebas -v
 
 
 
-Incluye ejercicios sobre estructuras de control, listas, tuplas, conjuntos, diccionarios, comprensiones y operaciones de inventario. El gestor permite registrar, consultar, buscar, actualizar y eliminar productos.
+Ejercicios de estructuras de control y colecciones, junto con el gestor procedural.
 
 
 
@@ -80,7 +70,27 @@ python3 -m unittest discover -s pruebas -v
 
 
 
-El gestor acepta las categorías `Periféricos`, `Componentes`, `Accesorios` y `Oficina`. Los códigos deben ser únicos, los precios deben ser positivos y las cantidades no pueden ser negativas.
+## Laboratorio 03
+
+
+
+Ejercicios de funciones, módulos y POO. El gestor se reorganizó en los módulos `producto.py`, `inventario.py` y `main.py`, separando la interacción de las operaciones de las clases.
+
+
+
+```bash
+
+cd laboratorio-03/gestor_inventario
+
+python3 main.py
+
+python3 -m unittest discover -s . -p 'test*.py' -v
+
+```
+
+
+
+El gestor orientado a objetos valida códigos, nombres, categorías, precios y cantidades. También demuestra que dos objetos `Inventario` mantienen colecciones independientes.
 
 
 
