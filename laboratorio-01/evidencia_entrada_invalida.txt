@@ -1,0 +1,2 @@
+Ingrese su nombre: Ingrese el nombre del producto: Ingrese el precio unitario del producto: Entrada no válida: could not convert string to float: 'abc'
+Revise que los valores numéricos sean correctos e intente de nuevo.

@@ -1,0 +1,9 @@
+test_caso_referencia (test_cotizador.CotizadorTest.test_caso_referencia) ... ok
+test_rechaza_cantidad_no_positiva (test_cotizador.CotizadorTest.test_rechaza_cantidad_no_positiva) ... ok
+test_rechaza_porcentaje_fuera_de_rango (test_cotizador.CotizadorTest.test_rechaza_porcentaje_fuera_de_rango) ... ok
+test_sin_descuento_ni_impuesto (test_cotizador.CotizadorTest.test_sin_descuento_ni_impuesto) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
