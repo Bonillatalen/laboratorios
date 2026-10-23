@@ -1,0 +1,47 @@
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: P004 - Webcam - Periféricos - $120000.00 - 2 unidades
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: Productos: 1
+Unidades: 2
+Valor total: $240000.00
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: Reporte creado en inventario.csv.
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: Inventario guardado en productos.json.
+Programa finalizado.

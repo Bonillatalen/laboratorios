@@ -1,0 +1,4 @@
+Pruebas automáticas: 5 OK
+Compilación: código 0
+JSON dañado: se lanzó ErrorAlmacenamiento y el archivo no fue sobrescrito
+CSV: valor_inventario = precio * cantidad

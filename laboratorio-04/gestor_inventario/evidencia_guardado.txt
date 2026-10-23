@@ -1,0 +1,25 @@
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: Categorías: Periféricos, Componentes, Accesorios, Oficina
+Código: Nombre: Categoría: Precio: Cantidad: Inventario guardado en productos.json.
+Producto registrado.
+
+=== GESTOR DE INVENTARIO PERSISTENTE ===
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Resumen
+7. Exportar reporte CSV
+0. Guardar y salir
+Opción: Inventario guardado en productos.json.
+Programa finalizado.
