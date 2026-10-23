@@ -1,0 +1,56 @@
+
+================================
+       GESTOR DE INVENTARIO
+================================
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Consultar productos sin stock
+7. Resumen del inventario
+0. Salir
+Opción: Código: Nombre: Categorías: Periféricos, Componentes, Accesorios, Oficina
+Categoría: Precio: Cantidad: Producto registrado exitosamente.
+
+================================
+       GESTOR DE INVENTARIO
+================================
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Consultar productos sin stock
+7. Resumen del inventario
+0. Salir
+Opción: P003 - Mouse - Accesorios - $40000.0 - 2 unidades
+
+================================
+       GESTOR DE INVENTARIO
+================================
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Consultar productos sin stock
+7. Resumen del inventario
+0. Salir
+Opción: Productos registrados: 1
+Unidades disponibles: 2
+Valor del inventario: $80000.0
+Categorías utilizadas: Accesorios
+
+================================
+       GESTOR DE INVENTARIO
+================================
+1. Registrar producto
+2. Listar productos
+3. Buscar por código
+4. Actualizar existencias
+5. Eliminar producto
+6. Consultar productos sin stock
+7. Resumen del inventario
+0. Salir
+Opción: Programa finalizado.
