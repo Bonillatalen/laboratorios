@@ -1,0 +1,16 @@
+{% extends "pages/base.html" %}
+{% block title %}Acerca de | ClassroomHub{% endblock %}
+{% block content %}
+<section class="card">
+    <h2>Acerca de ClassroomHub</h2>
+    <p>{{ description }}</p>
+    <h3>Tecnologías utilizadas</h3>
+    <ul>
+        {% for technology in technologies %}
+            <li>{{ technology }}</li>
+        {% empty %}
+            <li>La información se publicará próximamente.</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}

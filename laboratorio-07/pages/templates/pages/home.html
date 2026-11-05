@@ -1,0 +1,18 @@
+{% extends "pages/base.html" %}
+{% block title %}Inicio | ClassroomHub{% endblock %}
+{% block content %}
+<section class="hero">
+    <p>PORTAL DE APRENDIZAJE - Welcome</p>
+    <h2>Aprender paso a paso</h2>
+    <p>{{ welcome_message }}</p>
+    <p>Explora el catálogo para consultar los contenidos disponibles.</p>
+</section>
+<section>
+    <h2>Temas destacados</h2>
+    <div class="grid">
+        {% for topic in featured_topics %}
+            <article class="card"><strong>{{ topic }}</strong></article>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
