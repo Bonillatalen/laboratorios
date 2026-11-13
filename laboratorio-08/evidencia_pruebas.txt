@@ -1,0 +1,3 @@
+Laboratorio 08: autenticación, sesiones y permisos de revisión.
+Ejecutar con:
+python manage.py test pages
