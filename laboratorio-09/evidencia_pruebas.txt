@@ -1,0 +1,3 @@
+Laboratorio 09: formularios, vistas basadas en clases y CRUD de recursos.
+Ejecutar con:
+python manage.py test pages
